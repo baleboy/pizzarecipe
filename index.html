@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <style>
+  .video {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  blockquote {
+    display: none;
+  }
+  </style>
+  <title>The only pizza recipe you'll ever need</title>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84024315-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<body>
+  <div class="container">
+    <header class="jumbotron">
+    <h1>The Only Pizza Recipe You'll Ever Need</h1>
+  </header>
+  <div id="ingredients">
+    <h2>Ingredients (for 4 pizzas) <button class="btn btn-link" onclick="toggleNote('note1')"><span class="glyphicon glyphicon-info-sign"></span></button></h2>
+    <blockquote id="note1">
+      <p>As a general rule, ingredients are measured in weight rather than volume because
+        this allows for better precision. On that topic, a digital scale is a must to make
+        sure you are following the correct proportions.
+      </p>
+    </blockquote>
+    <ul class="list-group">
+      <li class="list-group-item"><span class="label label-default">400g</span> water</li>
+      <li class="list-group-item"><span class="label label-default">600g</span> all-purpose flour <button class="btn btn-link" onclick="toggleNote('note2')"><span class="glyphicon glyphicon-info-sign"></span></button></li>
+      <blockquote id="note2">
+        <p>Use flour with a high protein content, 12-13g per 100g. Protein is important
+           to develop the gluten which keeps the dough elastic and stretchable.</p>
+        <p>In Finland, where I live, I use "erikoisvehnäjauho", which is the equivalent
+           of all-purpose flour. You can find more than you could ever possibly want to learn
+            about Finnish flour <a href="http://www.dlc.fi/~marianna/gourmet/i_flours.htm">here.</a></p>
+      </blockquote>
+      <li class="list-group-item"><span class="label label-default">13g</span> salt</li>
+      <li class="list-group-item"><span class="label label-default">3g</span> fresh yeast <button class="btn btn-link" onclick="toggleNote('note3')"><span class="glyphicon glyphicon-info-sign"></span></button></li>
+      <blockquote id="note3">
+        <p>Using very little yeast lenghtens the proofing time and gives time for the dough to
+        develop flavour. Store-bought fresh or dry yeast is fine, natural yeast alone doesn't
+        have enough strength to make the dough raise, but can be added for extra flavour.</p>
+        <p>Whatever recipe you use, using a tiny amount of yeast (and consequently a long proofing time)
+          is one of the most important improvements you can make for the flavor and consistency of your
+          dough.
+        </p>
+      </blockquote>
+      <li class="list-group-item">One <span class="label label-default">400g</span> can of whole peeled tomatoes <button class="btn btn-link" onclick="toggleNote('note4')"><span class="glyphicon glyphicon-info-sign"></span></button></li>
+      <blockquote id="note4">
+        <p>I prefer whole peeled tomatoes to crushed ones because the taste is slightly better.
+           Also, you may find canned San Marzano peeled tomatoes, and of course if you have
+           the chance you should use fresh ones. The thing to remember about the sauce is that it
+           shouldn't be too watery, otherwise the pizza will get soggy. That's why it is left
+           to drain in a colander for a while.</p>
+           <p>Some recipes call for cooking the sauce first, but this is redundant because the
+             tomato will cook in the oven in the pizza, and in fact may result in a burnt sauce.</p>
+      </blockquote>
+      <li class="list-group-item">2 mozzarellas</li>
+      <li class="list-group-item">A handful of basil leaves</li>
+      <li class="list-group-item">Some olive oil for drizzling</li>
+    </ul>
+  </div>
+  <div id="instructions" class="lead">
+    <h2>Instructions </h2>
+    <div id="step1">
+      <p class>Put all the water in a large container, dissolve the yeast in it and
+        start pouring in the flour while mixing with a large spatula (or
+        spatula attachment if using a kneading machine). When half of the
+        flour is used, add the salt to the remaining flour and continue
+        incorporating. Let rest for 15 minutes. 
+      </p>
+    </div>
+    <div id="step2">
+      <p>If using a kneading machine, switch to the dough hook attachment and
+        knead at a low speed for 15 minutes. Otherwise transfer to the work
+        surface and knead by hand. Knead for 15 minutes and let rest for another 15 minutes. <button class="btn btn-link" onclick="toggleNote('note5')"><span class="glyphicon glyphicon-info-sign"></span></button>
+      </p>
+      <blockquote id="note5">
+        <p>A wet dough (68-70% hydration) is difficult to work by hand, so a kneading
+        machine is recommended. If you are going to knead by hand, dust the dough with a little flour
+        often, but be careful not to use too much.
+      </p>
+      </blockquote>
+    </div>
+    <div id="step3">
+      <p>Knead the dough ball using the "stretch and fold" technique (see video below): stretch it,
+        rotate 90 degrees, fold it in half, stretch it again and repeat. This makes
+        the dough much more firm and elastic. Shape into a ball and store in a
+        large plastic container previously coated with oil (drizzle a few
+        drops and spread with a  piece of kitchen paper). Store in the fridge and
+        let rest overnight, or out of the fridge for 4-6 if you are short on time.
+        <button class="btn btn-link" onclick="toggleNote('note6 ')"><span class="glyphicon glyphicon-info-sign"></span></button>
+      </p>
+      <blockquote id="note6">
+        <p>I found one night (or 24h) to be the proofing time that gives the best results without
+        being too long - planning your pizza a day ahead seems like a reasonable demand. You can also
+        let the dough rest for two nights if you want, but more than that will not produce any better result.
+        </p>
+      </blockquote>
+      <div class="embed-responsive embed-responsive-16by9 video">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1timJlCT3PM"></iframe>
+      </div>
+    </div>
+    <div id="step4">
+      <p> Divide into 4 chunks and shape into balls, let rest for 1.5 hours. Put
+        the pizza stone in the oven and turn the oven on at max temperature.
+        Let it heat for at least 30 minutes. Meanwhile, roughly
+        blend the canned tomatoes with their juice and leave them into a colander
+        to drain. Break the mozzarella with your hands and put in
+        another sieve to drain.
+      </p>
+    </div>
+    <div id="step5">
+      <p> Flatten and stretch one of the balls in to a pizza disc (see how in the video below), transfer to the
+        pizza peel, spread one spoonful of tomato sauce on it and toss on top of the
+        hot stone.
+        <button class="btn btn-link" onclick="toggleNotes()"><span class="glyphicon glyphicon-info-sign"></span></button>
+      </p>
+      <blockquote>
+        <p>A pizza peel and a pizza stone are fundamental tools and will improve any pizza recipe tremendously.
+          Your pizza needs to land on a very hot surface so that the "heat shock" will make it bubble and raise instantly.
+          The cooking time needs to be fast so that the inside of the crust stays moist and airy, while the outside becomes
+          crispy.
+        </p>
+      </blockquote>
+      <div class="embed-responsive embed-responsive-16by9 video">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lz-Yr1q-fKM"></iframe>
+      </div>
+        <p> After 5-7 minutes the pizza should have risen but not be
+        fully cooked yet, take it out, add the mozzarella, basil leafs, a
+        drizzle of olive oil and return to the oven for another 5 minutes or
+        less.
+        <button class="btn btn-link" onclick="toggleNotes()"><span class="glyphicon glyphicon-info-sign"></span></button>
+      </p>
+      <blockquote>
+        <p>The cooking time depends a lot on the oven, you'll have to try a few times to find the one that works for you.
+        </p>
+      </blockquote>
+    </div>
+  </div>
+  <footer id="myFooter" style="text-align: center">
+    <p><a href="mailto:bale@balenet.com?subject=Pizza%20recipe" class="btn btn-primary">Send feedback</a></p>
+    <p>Copyright (c)2016 Francesco Balestrieri</p>
+  </footer>
+</div>
+</body>
+<script>
+var notesVisible = false;
+function toggleNote(noteId) {
+  var note = document.getElementById(noteId);
+  note.style.display = note.style.display === "block" ? "none" : "block";
+}
+</script>
+</html>
