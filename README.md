@@ -1,6 +1,6 @@
 # The only pizza recipe you'll ever need
 
-Sources for my pizza recipe hosted at [www.balenet.com/pizza](www.balenet.com/pizza)
+Sources for my pizza recipe hosted at [www.balenet.com/pizza](http://www.balenet.com/pizza)
 
 You are free to make suggestions via github issues.
 
